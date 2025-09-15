@@ -2667,3 +2667,21 @@ img {
             opacity: 1;
         }
     }
+    @media (max-width: 480px) {
+  body {
+    font-size: 12px; /* smaller than desktop */
+  }
+
+  h1 {
+    font-size: 26px; /* shrink headings */
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
